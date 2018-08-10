@@ -1,0 +1,14 @@
+name: WeatherVote
+author: EricSiu
+main: me.eric.weathervote.Main
+version: 1.0
+api-version: 1.13
+commands:
+  weathervote:
+    description: A command for you to vote for a weather.
+    permission: weathervote.vote
+    permission-message: You do not have permission weathervote.vote!
+permissions:
+  weathervote.vote:
+    description: Allows you to use /weathervote
+    default: true
